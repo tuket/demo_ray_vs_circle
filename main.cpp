@@ -66,7 +66,7 @@ int main()
     text.setFillColor({255, 255, 255});
 
     sf::RenderWindow window(sf::VideoMode(START_WINDOW_WIDTH, START_WINDOW_HEIGHT),
-        "point cloud to convex poly", sf::Style::Titlebar | sf::Style::Close);
+        "ray vs circle", sf::Style::Titlebar | sf::Style::Close);
     
     bool prevMousePressed = false;
 
